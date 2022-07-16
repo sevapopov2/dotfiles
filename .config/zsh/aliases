@@ -13,3 +13,6 @@ alias gplo="git pull origin"
 #directory history aliases
 alias d="dirs -v"
 for index ({0..9}) alias "$index"="cd +${index}"; unset index
+
+#Alias to quickly activate python virtual environment
+alias svba="source venv/bin/activate"

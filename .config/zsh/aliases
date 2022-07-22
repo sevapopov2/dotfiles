@@ -14,5 +14,17 @@ alias gplo="git pull origin"
 alias d="dirs -v"
 for index ({0..9}) alias "$index"="cd +${index}"; unset index
 
-#Alias to quickly activate python virtual environment
+#Alias to quickly activate python virtual environment (venv)
 alias svba="source venv/bin/activate"
+
+#Aliases for pipenv interaction
+#Alias to install production dependencies
+alias pvi="pipenv install"
+#Alias to install development dependencies like pytest and it's plugins
+alias pvid="pipenv install --dev"
+#Alias to lock pipenv dependencies to Pipfile.lock
+alias pvl="pipenv lock"
+#Alias to run pipenv
+alias pvr="pipenv run"
+#Alias to uninstall dependency from pipenv virtual environment
+alias pvu="pipenv uninstall"

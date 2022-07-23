@@ -4,12 +4,17 @@ alias VSCode="code-insiders"
 #git commands aliases
 alias gs="git status"
 alias ga="git add"
+alias grs="git restore"
+#git commit without options
 alias gc="git commit"
+#Git commit with message
+alias gcm="git commit -m"
 alias gp="git push"
 alias gb="git branch"
 alias gco="git checkout"
 alias gpo="git push origin"
 alias gplo="git pull origin"
+alias grm="git remote"
 #directory history aliases
 alias d="dirs -v"
 for index ({0..9}) alias "$index"="cd +${index}"; unset index

@@ -31,5 +31,7 @@ alias pvid="pipenv install --dev"
 alias pvl="pipenv lock"
 #Alias to run pipenv
 alias pvr="pipenv run"
+#Alias to remove pipenv virtual environment
+alias pvrm="pipenv --rm"
 #Alias to uninstall dependency from pipenv virtual environment
 alias pvu="pipenv uninstall"

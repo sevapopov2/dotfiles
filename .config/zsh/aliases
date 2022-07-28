@@ -9,6 +9,8 @@ alias grs="git restore"
 alias gc="git commit"
 #Git commit with message
 alias gcm="git commit -m"
+#Git clone alias
+alias gcl="git clone"
 alias gp="git push"
 alias gb="git branch"
 alias gco="git checkout"

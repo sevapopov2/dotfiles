@@ -11,6 +11,8 @@ alias gc="git commit"
 alias gcm="git commit -m"
 #Git clone alias
 alias gcl="git clone"
+#Git fetch alias
+alias gf="git fetch"
 alias gp="git push"
 alias gb="git branch"
 alias gco="git checkout"

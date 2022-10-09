@@ -1,0 +1,9 @@
+[user]
+	name = "Vsevolod Popov"
+	email = sevapopov13@gmail.com
+[pull]
+	ff = only
+[core]
+	editor = code-insiders --wait
+[init]
+	defaultBranch = main
